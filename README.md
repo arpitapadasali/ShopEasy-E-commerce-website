@@ -1,4 +1,3 @@
-# 🛍️ ShopEasy — Full-Stack E-Commerce Web Application
 
 [![Node.js](https://img.shields.io/badge/Node.js-v20%2B-green.svg)](https://nodejs.org/)
 [![React](https://img.shields.io/badge/React-18-blue.svg)](https://react.dev/)
@@ -453,3 +452,4 @@ Detailed step-by-step instructions are available in [`docs/DEPLOYMENT_GUIDE.md`]
 
 ## 📜 License
 This project is developed for educational and internship evaluation purposes under the ISC License.
+
