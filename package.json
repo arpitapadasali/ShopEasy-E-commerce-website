@@ -1,0 +1,33 @@
+{
+  "name": "shopeasy-ecommerce",
+  "version": "1.0.0",
+  "description": "ShopEasy - Complete Full-Stack E-Commerce Application",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "install:all": "npm install --prefix client && npm install --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "build": "npm run build --prefix client",
+    "build:client": "npm run build --prefix client",
+    "start:server": "npm start --prefix server",
+    "seed": "npm run seed --prefix server",
+    "seed:products": "npm run seed:products --prefix server",
+    "seed:new-products": "npm run seed:new-products --prefix server",
+    "migrate:sku": "npm run migrate:sku --prefix server",
+    "test": "npm test --prefix server",
+    "test:server": "npm test --prefix server",
+    "test:client": "npm test --prefix client",
+    "test:all": "npm test --prefix server && npm test --prefix client"
+  },
+  "keywords": [
+    "ecommerce",
+    "react",
+    "express",
+    "nodejs",
+    "mongodb",
+    "vite"
+  ],
+  "author": "",
+  "license": "ISC"
+}
